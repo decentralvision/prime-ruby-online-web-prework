@@ -2,7 +2,7 @@
 def prime?(num)
 
 
-  (1..num.abs).each do |i|
+  (2..num.abs).each do |i|
     if i == num
       break
     elsif num.abs % i == 0
