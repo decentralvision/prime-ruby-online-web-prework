@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   (1..num).each do |i|
-    if (i == num || i == 1)
+    if i == num
       break
     elsif num.abs % i == 0
       return false
