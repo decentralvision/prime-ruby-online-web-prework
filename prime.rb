@@ -3,6 +3,7 @@ def prime?(num)
   if num.abs == 1
     return false
   end
+
   (1..num.abs).each do |i|
     if i == num
       break
