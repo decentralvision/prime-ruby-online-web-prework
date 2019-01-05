@@ -1,5 +1,4 @@
 # Add  code here!
 def prime?(num)
-  num.times do
-    num %
+  (2..num).each do |i|
   end
