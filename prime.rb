@@ -2,8 +2,8 @@
 def prime?(num)
   (2..num).each do |i|
     if num % i == 0
-      return true
+      return false
     end
   end
-  return false
+  return true
 end
