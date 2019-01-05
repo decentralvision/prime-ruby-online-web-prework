@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  (0..num.abs).each do |i|
+  (1..num.abs).each do |i|
     if (i == num || i == 1)
       break
     elsif num.abs % i == 0
